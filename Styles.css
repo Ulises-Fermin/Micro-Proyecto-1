@@ -1,0 +1,338 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+  background-color: transparent;
+}
+
+.Hero_s {
+  margin-top: 0px;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+#hero {
+  height: 100%;
+  width: 100%;
+}
+
+.Experience {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  background-color: transparent;
+  padding: 50px;
+}
+
+.Doc1 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 5px;
+}
+
+.Doc2 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 5px;
+}
+
+.Doc3 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 5px;
+}
+
+.About_me {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.Skills {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: transparent;
+}
+
+.Linea1 {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+
+.Linea2 {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+
+.Linea3 {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+
+.Linea4 {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+
+.Formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  padding-left: 10px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  padding-left: 10px;
+}
+
+#Nombre_f {
+  width: 300px;
+  padding: 8px 2px;
+}
+
+#Correo_f {
+  width: 300px;
+  padding: 8px 2px;
+}
+
+#Mensaje_f {
+  width: 300px;
+  padding: 8px 2px;
+}
+
+#Enviar_f {
+  width: 60px;
+  padding: 8px 2px;
+}
+
+#Lt {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#designo1 {
+  margin-right: 55.65px;
+  background-color: transparent;
+}
+
+#designo2 {
+  margin-right: 37.85px;
+  background-color: transparent;
+}
+
+#designo3 {
+  margin-right: 65.41px;
+  background-color: transparent;
+}
+
+#designo4 {
+  margin-right: 10px;
+  background-color: transparent;
+}
+
+#skills {
+  background-color: transparent;
+}
+
+#color1 {
+  background-color: antiquewhite;
+  width: 400px;
+}
+
+#color2 {
+  background-color: antiquewhite;
+  width: 200px;
+}
+
+#color3 {
+  background-color: antiquewhite;
+  width: 300px;
+}
+
+#color4 {
+  background-color: antiquewhite;
+  width: 280px;
+}
+
+#Img_abm {
+  width: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#Parrafo_abm {
+  background-color: transparent;
+  width: 500px;
+  margin-top: 40px;
+  font-size: larger;
+}
+
+#Titulo2 {
+  background-color: transparent;
+}
+
+#Titulo1 {
+  margin-bottom: 10px;
+}
+
+#Proyecto1 {
+  margin-bottom: 10px;
+  background-color: transparent;
+  font-size: larger;
+}
+
+#Proyecto2 {
+  margin-bottom: 10px;
+  background-color: transparent;
+  font-size: larger;
+}
+
+#Proyecto3 {
+  margin-bottom: 10px;
+  background-color: transparent;
+  font-size: larger;
+}
+
+#Tecnologias1 {
+  margin-bottom: 8px;
+  background-color: transparent;
+  font-size: larger;
+}
+
+#Tecnologias2 {
+  margin-bottom: 8px;
+  background-color: transparent;
+  font-size: larger;
+}
+
+#Tecnologias3 {
+  margin-bottom: 8px;
+  background-color: transparent;
+  font-size: larger;
+}
+
+#Fecha1 {
+  margin-bottom: 8px;
+  background-color: transparent;
+  font-size: larger;
+}
+
+#Fecha2 {
+  margin-bottom: 8px;
+  background-color: transparent;
+  font-size: larger;
+}
+
+#Fecha3 {
+  margin-bottom: 8px;
+  background-color: transparent;
+  font-size: larger;
+}
+
+#Img_p1 {
+  margin-top: 8px;
+  height: 250px;
+  width: 400px;
+}
+
+#Img_p2 {
+  margin-top: 8px;
+  height: 250px;
+  width: 400px;
+}
+
+#Img_p3 {
+  margin-top: 8px;
+  height: 250px;
+  width: 400px;
+}
+
+#Link_fake1 {
+  cursor: pointer;
+}
+
+#Link_fake2 {
+  cursor: pointer;
+}
+
+#Link_fake3 {
+  cursor: pointer;
+}
+
+#hero_s {
+  width: 100%;
+}
+
+#B_Exprience {
+  font-size: larger;
+  font-weight: 80px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgb(224, 222, 222);
+  border: none;
+  cursor: pointer;
+}
+
+#B_About {
+  font-size: larger;
+  font-weight: 80px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgb(224, 222, 222);
+  border: none;
+  cursor: pointer;
+}
+
+#B_Skills {
+  font-size: larger;
+  font-weight: 80px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgb(224, 222, 222);
+  border: none;
+  cursor: pointer;
+}
+
+#B_Contact {
+  font-size: larger;
+  font-weight: 80px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgb(224, 222, 222);
+  border: none;
+  cursor: pointer;
+}

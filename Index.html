@@ -5,16 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Micro_Proyecto1</title>
+    <link rel="stylesheet" href="Styles.css" />
   </head>
   <body>
     <div class="Navbar">
-      <button id="B_Exprience">Experience</button>
-      <button id="B_About">About Me</button>
-      <button id="B_Skills">Skills</button>
-      <button id="B_Contact">Contact Me</button>
+      <button
+        type="button"
+        id="B_Exprience"
+        onClick="document.getElementById('Titulo1').scrollIntoView();"
+      >
+        Experience
+      </button>
+      <button
+        type="button"
+        id="B_About"
+        onClick="document.getElementById('Titulo2').scrollIntoView();"
+      >
+        About Me
+      </button>
+      <button
+        type="button"
+        id="B_Skills"
+        onClick="document.getElementById('skills').scrollIntoView();"
+      >
+        Skills
+      </button>
+      <button
+        type="button"
+        id="B_Contact"
+        onClick="document.getElementById('Lt').scrollIntoView();"
+      >
+        Contact Me
+      </button>
     </div>
+    <img id="hero" />
+    <h2 id="Titulo1">Experience</h2>
     <div class="Experience">
-      <h2 id="Titulo1">Experience</h2>
       <div class="Doc1">
         <h3 id="Proyecto1">Proyecto Bancario</h3>
         <p id="Tecnologias1">
@@ -23,7 +49,7 @@
         </p>
         <p id="Fecha1">Este proyecto se llevó a cabo a mediados de 2018</p>
         <button id="Link_fake1">Link_imainario.com</button>
-        <img id="Img_p1" src="" alt="" />
+        <img id="Img_p1" src="preview.jpg" alt="" />
       </div>
       <div class="Doc2">
         <h3 id="Proyecto2">Proyecto Inmobiliario</h3>
@@ -33,7 +59,7 @@
         </p>
         <p id="Fecha2">Este proyecto se desarrolló en enero de 2019</p>
         <button id="Link_fake2">Link_imainario.com</button>
-        <img id="Img_p2" src="" alt="" />
+        <img id="Img_p2" src="imgp2.jpg" alt="" />
       </div>
       <div class="Doc3">
         <h3 id="Proyecto3">Proyecto Hospitalario</h3>
@@ -45,12 +71,12 @@
           El desarrollo de este proyecto tomó el total de los años 2019 y 2020
         </p>
         <button id="Link_fake3">Link_imainario.com</button>
-        <img id="Img_p3" src="" alt="" />
+        <img id="Img_p3" src="imgp3.jpeg" alt="" />
       </div>
     </div>
+    <h2 id="Titulo2">About me</h2>
     <div class="About_me">
-      <h2 id="Titulo2">About me</h2>
-      <img id="Img_abm" src="" alt="" />
+      <img id="Img_abm" src="foto-mia.JPG" alt="" />
       <p id="Parrafo_abm">
         Mi nombre es Ulises Fermin, estudiante de la UNIMET en Carcas Venzuela,
         para ser sincero mi objetivo a corto plazo es pasar mis materias de este
@@ -63,50 +89,53 @@
         mexicanos.
       </p>
     </div>
+    <h2 id="skills">Skills</h2>
     <div class="Skills">
-      <h2 id="skills">Skills</h2>
       <div class="Grafico">
         <div class="Linea1">
-          <p id="color1">sss</p>
           <p id="designo1">Dedicación</p>
+          <p id="color1"></p>
         </div>
         <div class="Linea2">
-          <p id="color2">sss</p>
           <p id="designo2">Conocimiento</p>
+          <p id="color2"></p>
         </div>
         <div class="Linea3">
-          <p id="color3">sss</p>
           <p id="designo3">Habilidad</p>
+          <p id="color3"></p>
         </div>
         <div class="Linea4">
-          <p id="color4">sss</p>
           <p id="designo4">Trabajo en Equipo</p>
+          <p id="color4"></p>
         </div>
       </div>
     </div>
+    <h2 id="Lt">Contact Me</h2>
     <div class="Formulario">
-      <input
-        type="text"
-        name="Nombre"
-        id="Nombre_f"
-        placeholder="
+      <form class="formulario" action="">
+        <input
+          type="text"
+          name="Nombre"
+          id="Nombre_f"
+          placeholder="
         Coloque su nombre"
-      />
-      <input
-        type="email"
-        name="Correo"
-        id="Correo_f"
-        placeholder="
+        />
+        <input
+          type="email"
+          name="Correo"
+          id="Correo_f"
+          placeholder="
         Coloque su correo"
-      />
-      <input
-        type="text"
-        name="Mensaje"
-        id="Mensaje_f"
-        placeholder="
+        />
+        <input
+          type="text"
+          name="Mensaje"
+          id="Mensaje_f"
+          placeholder="
         Coloque su mensaje"
-      />
-      <button id="Enviar_f">Enviar</button>
+        />
+        <button type="button" id="Enviar_f" form="">Enviar</button>
+      </form>
       <a id="insta" href="https://www.instagram.com/?hl=es" target="_blank"
         >Contacto por Instagram</a
       >
@@ -114,5 +143,6 @@
         >Contacto por whatsapp</a
       >
     </div>
+    <script src="Index.js"></script>
   </body>
 </html>
